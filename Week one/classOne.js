@@ -30,6 +30,9 @@ Databases:
 Relational e.g. MySQL, PostgreSQL
 NoSQL e.g. MongoDB, Redis
 
+What is Node.js?
+An open-source, cross-platform JavaScript runtime environment that allows the execution of JavaScript code outside a web browser. It is built on Chrome's V8 JavaScript engine. It created by Ryan Dahl in 2009.
+
 
 
 */
