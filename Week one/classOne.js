@@ -13,6 +13,23 @@ Think of the backend as the engine under the hood of a car — it is essential f
 2. Database Management: CRUD operations (Create, Read, Update, Delete) with databases.
 3.Authentication and Security: User authentication, data protection, role-based access control and secure communication.
 
+Common Backend Languages and Frameworks
+Languages:
+JavaScript: (with Node.js)
+Python: (Django, Flask)
+Ruby: (Ruby on Rails)
+Java: (Spring Boot)
+PHP: (Laravel)
+C# (ASP.NET)
+
+
+Frameworks and Technologies:
+Express.js, Django, Ruby on Rails, ASP.NET, Spring Boot
+
+Databases:
+Relational e.g. MySQL, PostgreSQL
+NoSQL e.g. MongoDB, Redis
+
 
 
 */
