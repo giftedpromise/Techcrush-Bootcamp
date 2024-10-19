@@ -192,5 +192,24 @@ console.log(add(5, 3)); // 8
 /* 
 
 
+Writing Modules
+Writing your first module
+In Node.js, use require and module.exports for modules (remember in the last class, 
+I listed global objects in Node.js.
+module.exports is used to export a function or class from a file.
+require is used to import the function into another file.
+This ensures that you do not have a messed-up, overbloated, complex or heavy file (Make 
+
+
+// Example: Exporting and Importing
+
+// In file.js
+module.exports = function greet() {
+console.log("Hello from file.js!");
+};
+
+// In another file (main.js):
+const greet = require('./file.js');
+greet();
 
 */
