@@ -32,5 +32,44 @@ npm list
 npm run script-name
 
 
+Understanding Package.json
+Diving deeper into packages in NPM
+The package.json file is the heart of any Node.js project. It contains metadata about the project and lists its dependencies.
+{
+  "name": “techcrush-project",
+  "version": "1.0.0",
+  "description": "A project to explain npm",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
+
+name: The name of your project
+version: The current version of your project
+description: A short description of your project
+main: The entry point of your application
+scripts: Custom scripts that can be run with `npm run`
+dependencies: Packages required for the application to run
+devDependencies: Packages only needed for development and testing
+
+Understanding Package.json - SemVer
+Semantic Versioning is a versioning scheme that uses a three-part version number: MAJOR.MINOR.PATCH
+MAJOR: Incompatible API changes
+MINOR: Add functionality (backwards-compatible)
+PATCH: Bug fixes (backwards-compatible)
+
+In `package.json`, you can specify version ranges:
+`"express": "4.17.1"` - Exact version
+`"express": "^4.17.1"` - Compatible with 4.17.1 or later, but < 5.0.0
+`"express": "~4.17.1"` - Compatible with 4.17.1 or later, but < 4.18.0
+`"express": "*"` - Latest version (not recommended for production)
 
 */
