@@ -38,4 +38,22 @@ Query String (?query=search):
 Contains data passed to the server, typically in key-value pairs (key=value format).
 
 Multiple parameters are separated by &, e.g., ?key1=value1&key2=value2.
+
+The HTTP module in Node.js is a crucial component for building web servers, enabling the transfer
+of data over the Hypertext Transfer Protocol (HTTP). This module allows developers to create
+servers that can handle incoming requests and send appropriate responses back to clients.
+
+Key Functions
+
+Creating a Server: The primary function of the HTTP module is to create a server using
+http.createServer(). This function takes a callback that executes whenever a request is received.
+
+Handling Requests: The request object (req) contains information about the incoming request,
+such as headers and URL. This allows you to tailor responses based on the request details.
+
+Sending Responses: The response object (res) is used to send data back to the client. You can set
+status codes (e.g., 200 for success) and headers (e.g., content type) before sending the actual
+content.
+
+We will be doing some examples in our usual app.js file in the next two slides.
 */
