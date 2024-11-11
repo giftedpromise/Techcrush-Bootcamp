@@ -56,4 +56,25 @@ status codes (e.g., 200 for success) and headers (e.g., content type) before sen
 content.
 
 We will be doing some examples in our usual app.js file in the next two slides.
+
+HTTP status codes are three-digit responses sent by a server to indicate the outcome of a client's request. They are
+categorized into five classes, each representing a different type of response. Below is an overview of these classes along
+with a comprehensive list of status codes.
+
+Overview of HTTP Status Code Classes
+
+1xx (Informational Responses): These codes indicate that the server has received the request and is continuing the
+process. They are primarily used for early communication.
+
+2xx (Successful Responses): These codes signify that the request was successfully received, understood, and accepted by
+the server.
+
+3xx (Redirection Messages:) These codes indicate that further action is needed to complete the request, often redirecting
+the client to a different resource.
+
+4xx (Client Error Responses): These codes represent errors where the client appears to have made an error in the request
+(e.g., malformed request syntax).
+
+5xx (Server Error Responses): These codes indicate that the server failed to fulfill a valid request due to an error on its
+side.
 */
